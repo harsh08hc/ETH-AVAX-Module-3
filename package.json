@@ -1,15 +1,15 @@
 {
-  "name": "new-folder",
+  "name": "my-token",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "MyToken contract",
+  "main": "mytoken.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "hardhat": "^2.16.1"
+    "hardhat": "^2.6.4"
   }
 }
