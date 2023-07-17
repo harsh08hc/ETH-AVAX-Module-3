@@ -1,15 +1,17 @@
 {
-  "name": "my-token",
+  "name": "my-token-project",
   "version": "1.0.0",
-  "description": "MyToken contract",
-  "main": "mytoken.js",
+  "description": "Create and Mint Token Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network hardhat"
   },
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "hardhat": "^2.6.4"
-  }
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "hardhat": "^2.6.4",
+    "chai": "^4.3.4",
+    "ethers": "^5.4.5"
+  },
+  "license": "MIT"
 }
